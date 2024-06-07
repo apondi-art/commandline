@@ -31,5 +31,11 @@ func main() {
 		z01.PrintRune(v)
 	}
 	z01.PrintRune('\n')
+	//last paragm
+	for _, first := range arguments[len(arguments)-1] {
+		z01.PrintRune(first)
+
+	}
+	z01.PrintRune('\n')
 
 }
